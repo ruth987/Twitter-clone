@@ -54,7 +54,7 @@ const NAVIGATION_ITEMS = [
 
 const LeftSidebar = () => {
   return (
-   <section className="flex flex-col text-white  h-screen w-[20%] justify-between">
+   <section className="flex flex-col text-white  h-screen  w-[20%] justify-between">
         <div className='space-y-2'>
           {NAVIGATION_ITEMS.map(item => (
             <div key={item.title} className="flex items-center py-2 px-3 rounded-full hover:bg-white/20 transition duration-200  hover: max-w-fit">
